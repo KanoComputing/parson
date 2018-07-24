@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+
+override_dh_strip:
+	dh_strip -plibparson --dbg-package=libparson-dbg
+
+override_dh_auto_build:
+	make
+	make debug
+	dh_auto_build
+
+.PHONY: override_dh_strip

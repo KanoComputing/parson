@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+debug/libparson.so => usr/lib/debug/usr/lib/libparson.so.1
