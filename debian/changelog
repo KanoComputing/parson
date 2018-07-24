@@ -1,0 +1,8 @@
+parson (4.1.0-0) unstable; urgency=low
+
+  * Added debian packaging and Jenkins automation.
+  * Extended Makefile to better suit builds.
+  * Added json_helpers functions.
+  * Initial version from original forked repo.
+
+ -- Team Kano <dev@kano.me>  Tue, 24 Jul 2018 14:38:00 +0100

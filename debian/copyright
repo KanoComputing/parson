@@ -1,0 +1,7 @@
+Files: debian/*, json_helpers.h, Jenkinsfile
+Copyright: 2018 Kano Computing Ltd.
+License: GPL-2+
+
+Files: *
+Copyright: 2018 Krzysztof Gabis
+License: MIT

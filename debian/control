@@ -1,0 +1,31 @@
+Source: parson
+Maintainer: Team Kano <dev@kano.me>
+Section: admin
+Priority: optional
+Standards-Version: 3.9.4
+Build-Depends:
+    build-essential,
+    debhelper (>= 9),
+    dh-exec
+
+Package: libparson
+Architecture: any
+Depends:
+    ${misc:Depends}
+Description: JSON library
+ JSON library by Krzysztof Gabis
+
+Package: libparson-dbg
+Architecture: any
+Depends:
+    ${misc:Depends}
+Description: Debug version of JSON library
+ Debug version of JSON library by Krzysztof Gabis
+
+Package: libparson-dev
+Architecture: any
+Depends:
+    ${misc:Depends},
+    libparson (= ${source:Version})
+Description: Dev version of JSON library
+ Dev version of JSON library by Krzysztof Gabis
